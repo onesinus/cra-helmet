@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet'
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,31 +14,33 @@ function App() {
   return (
     <Router>
       <>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/one">One</Link>
-          </li>
-          <li>
-            <Link to="/two">Two</Link>
-          </li>
-        </ul>
+        <Helmet>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/one">One</Link>
+            </li>
+            <li>
+              <Link to="/two">Two</Link>
+            </li>
+          </ul>
 
-        <hr />
+          <hr />
 
-        <Switch>
-        <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/one">
-            <One />
-          </Route>
-          <Route path="/two">
-            <Two />
-          </Route>
-        </Switch>
+          <Switch>
+          <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/one">
+              <One />
+            </Route>
+            <Route path="/two">
+              <Two />
+            </Route>
+          </Switch>
+        </Helmet>
       </>
     </Router>
   );
