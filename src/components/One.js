@@ -5,7 +5,7 @@ function One() {
         <HelmetProvider>
             <>
                 <Helmet>
-                    <meta name="description" content="One Bray Description" data-react-helmet="true" />
+                    <meta name="description" content="One Bray Description" data-rh="true" />
                     <title>One</title>
                 </Helmet>
                 One
