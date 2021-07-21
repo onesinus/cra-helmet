@@ -4,7 +4,7 @@ function Home() {
     return (
         <>
             <Helmet>
-                <meta name="description" content="Home Bray Description" />
+                <meta name="description" content="Home Bray Description" data-react-helmet="true" />
                 <meta property="og:title" content="Home Bray" />
                 <meta property="og:description" content="This is Home Description" />
                 <title>Home</title>

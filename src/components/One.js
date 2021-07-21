@@ -4,7 +4,7 @@ function One() {
     return (
         <>
             <Helmet>
-                <meta name="description" content="One Bray Description" />            
+                <meta name="description" content="One Bray Description" data-react-helmet="true" />
                 <meta property="og:title" content="One Bray" />
                 <meta property="og:description" content="This is One Description" />
                 <title>One</title>
