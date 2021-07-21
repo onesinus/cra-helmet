@@ -5,6 +5,9 @@ function Home() {
         <>
             <Helmet>
                 <title>Home</title>
+                <meta name="title" content="One GG Asli" />
+                <meta name="description" content="One Bray Description" />
+
                 <meta property="og:title" content="Home Bray" />
                 <meta property="og:description" content="This is Home Description" />
             </Helmet>
