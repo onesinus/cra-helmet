@@ -11,7 +11,7 @@ function Home() {
                 <meta property="og:url" content="https://master.dgmlkjvqxsdr9.amplifyapp.com" />
 
                 <meta property="og:description" content="description of your website/webpage" />
-                <meta property="og:image" content="//cdn.example.com/uploads/images/webpage_300x200.png" />
+                <meta property="og:image" content="https://d2jsr68bvg2sg0.cloudfront.net/otobo_executive.png" />
                 <meta property="og:type" content="article" />
 
                 <meta property="og:locale" content="en_GB" />
