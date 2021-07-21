@@ -1,14 +1,16 @@
-import { Helmet } from 'react-helmet'
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 function One() {
     return (
-        <>
-            <Helmet>
-                <meta name="description" content="One Bray Description" data-react-helmet="true" />
-                <title>One</title>
-            </Helmet>
-            One
-        </>
+        <HelmetProvider>
+            <>
+                <Helmet>
+                    <meta name="description" content="One Bray Description" data-react-helmet="true" />
+                    <title>One</title>
+                </Helmet>
+                One
+            </>
+        </HelmetProvider>
     )
 }
 
