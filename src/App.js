@@ -28,7 +28,10 @@ function App() {
         <hr />
 
         <Switch>
-        <Route exact path="/">
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/home">
             <Home />
           </Route>
           <Route path="/one">

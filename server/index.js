@@ -36,10 +36,6 @@ app.use(express.static(
     { maxAge: '30d' }
 ))
 
-app.get('/', (req, res, next) => {
-    console.log("SAdasda")
-})
-
 app.get('/*', (req, res, next) => {
     const urlPath = req.params[0].split("/")[0] || "home"
     console.log(">>>>", urlPath)
