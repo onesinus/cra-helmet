@@ -38,7 +38,6 @@ app.use(express.static(
 
 app.get('/*', (req, res, next) => {
     const urlPath = req.params[0].split("/")[0] || "home"
-    console.log(">>>>", urlPath)
     fs.readFile(indexPath, 'utf-8', (err, html) => {
         if (err) {
             console.log('Error reading html file:', err)
